@@ -1,0 +1,727 @@
+*{
+    
+    margin: 0;
+}
+
+
+.box{
+    position: absolute;
+    height: 6500px;
+    width: 1520px;
+    background-color:rgb(243, 243, 243);  
+    margin: 0px 0px;
+}
+
+@keyframes startt {
+    from{margin: 300px 500px;
+    opacity: 50%;}
+    to{ margin: 300px 700px;
+    opacity: 100%;}
+}
+
+@keyframes start{
+    from{
+    opacity: 50%;
+    scale:0.5;}
+    to{margin: 200px 300px;
+    opacity: 100%;
+    scale:1;
+}
+}
+
+.image img{
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    margin: 200px 300px;
+    animation: start 1s;
+ }
+ img:hover{
+    opacity: 90%;
+    transition: .2s;
+ }
+
+
+
+
+.head
+{
+    font-size: 5em;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    margin: 300px 700px;
+    width: 170px;
+    font-weight:200;
+    animation: startt 1.5s;
+    cursor:context-menu;
+    
+   
+}
+
+
+.objs
+{
+    position: absolute;
+    background-color: black;
+    height: 20px;
+    width: 150px;
+    margin:270px 260px 
+}
+
+.objs:hover
+{
+    opacity: 70%;
+    transition: .3s;
+}
+.objs2
+{
+    position: absolute;
+    background-color: black;
+    height: 3px;
+    width: 520px;
+    margin:570px 900px;
+    box-shadow: 2px 2px 5px;
+}
+
+
+.image2 img{
+    height: 600px;
+    width: 320px;
+    position: absolute;
+    margin: 800px 0px;
+   
+}
+
+
+@keyframes show{
+    from{opacity: 0%;
+    scale:0.5;}
+    to{opacity: 100%;
+    scale: 1;}
+}
+
+.head1{
+    font-size: 5em;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    margin: 800px 500px;
+    font-weight: 400;
+    height: 500px;
+    width: 700px;
+    background-color: rgba(231, 244, 255, 0.453);
+    border-radius: 50%;
+    animation: show linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+    transition: 1s;
+}
+
+
+.head1 .head1Body{
+    font-size: 40px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    position: absolute;
+    margin: 20px 0px;
+    width: 1000px;
+
+}
+
+@keyframes slide{
+    from{  margin: 1600px 0px;
+        opacity: 0%;
+    }
+    to{  margin: 1600px 100px;
+        opacity: 100%;
+    }
+}
+.wrap{
+    height: 350px;
+    width: 500px;
+    margin: 1600px 100px;
+    position: absolute; 
+    font-weight: 100;    
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    animation: slide linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+    transition: 3s;
+}
+
+
+.wrap .txtHead
+{
+    
+   margin: 0px 20%;
+   font-size: 4em;
+   width: 700px;
+   font-weight:100;
+   }
+.wrap .txtHead .txtBody
+{
+  
+   margin: 50px 0px;
+   font-size: 40px;
+   width: 700px;
+  
+}
+
+.butt
+{
+    height: 300px;
+    width: 500px;
+    background-color: blueviolet;
+    margin: 1500px 1000px;
+    position: absolute;
+    border-bottom-left-radius: 100%;
+    cursor: pointer;
+    opacity: 50%;
+   
+}
+
+
+
+
+.butt2:hover
+{ margin: 20px 200px;
+    transition: .5s;
+}
+
+.butt3:hover
+{
+    margin: 0px -350px;
+    transition: .5s;
+}
+
+.butt2
+{
+    height: 350px;
+    width: 300px;
+    background-color: rgb(73, 133, 193);  
+    margin: 0px 200px;
+    position: absolute;
+    opacity: 50%;
+   
+}
+
+.butt3
+{
+    height: 200px;
+    width: 550px;
+    background-color: rgb(198, 126, 39);  
+    margin: 0px -250px;
+    position: absolute;
+    opacity: 50%;
+   
+}
+.edu
+{
+    height: 110px;
+    width: 500px;
+    margin: 2300px 200px;
+    position: absolute; 
+    font-weight: 100;    
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 4em;
+}
+.rect{
+    margin: 2500px 200px;
+    position: absolute; 
+    height: 35px;
+    width: 400px;
+    background-color: rgb(182, 182, 182);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 300; 
+    animation: show linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+    transition: 3s;
+}
+
+.rect:hover{
+    opacity: 70%;
+    transition: .6s;
+}
+
+.rectTxt
+{
+    margin: 2550px 200px;
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    position: absolute;
+    width: 500px;
+    animation: show 3s;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+
+
+.rectlight{
+    background-color:rgba(54, 54, 54, 0.248); 
+    margin: 2800px 200px;
+    position: absolute;
+    height: 35px;
+    width: 400px;font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    animation: show linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+    transition: 3s;
+}
+.rectlight:hover{
+    opacity: 70%;
+    transition: .6s;
+}
+.hightxt
+{
+    margin: 2850px 200px;
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    position: absolute;
+    width: 500px;
+    animation: show 3s;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+
+
+
+
+
+
+.colg{
+    background-color:rgba(54, 54, 54, 0.248); 
+    margin: 3100px 200px;
+    position: absolute;
+    height: 35px;
+    width: 400px;font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    animation: show linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+    transition: 3s;
+}
+.colgtxt
+{
+    margin: 3150px 200px;
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    position: absolute;
+    width: 500px;
+    animation: show 3s;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+
+
+
+
+
+
+.book{
+    position: absolute;
+    height: 700px;
+    width: 500px;
+    margin: 2520px 940px;
+    opacity: 90%;
+}
+.booj
+{
+    margin: 2500px 900px;
+    position: absolute;
+    height:3px;
+    width: 610px;
+    background-color: black;
+}
+
+.booj2
+{
+    margin: 2450px 1460px;
+    position: absolute;
+    height:780px;
+    width: 3px;
+    background-color: black;
+}
+
+.personal
+{   
+    margin: 3400px 200px;
+    position: absolute;
+    font-size: 4em;
+    width: 400px;font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+
+}
+
+.bbob
+{
+    margin: 3400px 1100px;
+    position: absolute;
+    height: 20px;
+    width: 200px;
+    background-color: black;
+}
+
+.bbob:hover{
+    opacity: 60%;
+    margin: 3400px 1110px;
+    transition: .5s;
+}
+
+
+
+
+
+
+.graphic{
+    margin: 3600px 210px;
+    position: absolute;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2em;
+    font-weight: 500; 
+    animation: show linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+    transition: 1s;
+}
+.graphic .graphictxt{
+    font-size: 20px;
+    font-weight: 100;
+    width: 300px;
+    margin-top: 10px;
+}
+
+.graphic .pad{
+    margin: 10px 0px;
+    height: 200px;
+    width: 300px;
+}
+.graphic .pad:hover{
+   box-shadow: 0px 10px 10px black;
+    transition: .5s;
+}
+.graphic .pad:hover:active{
+    height: 190px;
+    width: 290px;
+}
+
+
+
+
+
+
+
+.front{
+    margin: 3600px 710px;
+    position: absolute;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2em;
+    font-weight: 500; 
+    width: 200px;
+    animation: show linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+    transition: 1s;
+}
+
+.front .frontxt{
+    font-size: 20px;
+    font-weight: 100;
+    width: 300px;
+    margin-top: 10px;
+   
+}
+
+.front .front{
+    margin: 40px 0px;
+    height: 200px;
+    width: 300px;
+}
+.front .front:hover{
+    box-shadow: 0px 10px 10px black;
+     transition: .5s;
+ }
+ .front .front:hover:active{
+     height: 190px;
+     width: 290px;
+ }
+
+
+
+
+
+
+
+.photography
+{
+    margin: 3600px 1200px;
+    position: absolute;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2em;
+    font-weight: 500; 
+    animation: show linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+    transition: 1s;
+}
+
+.photography .phototxt{
+    font-size: 20px;
+    font-weight: 100;
+    width: 300px; 
+    margin-top: 10px; 
+}
+.photography .no{
+    margin: 40px 0px;
+    height: 200px;
+    width: 300px;
+}
+.photography .no:hover{
+    box-shadow: 0px 10px 10px black;
+     transition: .5s;
+ }
+ .photography .no:hover:active{
+     height: 190px;
+     width: 290px;
+ }
+
+
+
+
+
+
+
+ .workexp
+ {
+     animation: show linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+    transition: 3s;
+    margin: 4100px 200px;
+    position: absolute;
+    font-size: 4em;
+    width: 400px;font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+}
+.webD
+{
+       animation: show linear;
+       animation-timeline: view();
+       animation-range: entry 0% cover 40%;
+       transition: 3s;
+       margin: 4400px 200px;
+       position: absolute;
+       font-size: 2em;
+       width: 400px;font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       font-weight: 400;  
+}
+.webtxt
+{
+       animation: show linear;
+       animation-timeline: view();
+       animation-range: entry 0% cover 40%;
+       transition: 3s;
+       margin: 10px 0px;
+       position: absolute;
+       font-size: 20px;
+       width: 350px;
+       font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       font-weight: 300;   
+}
+
+
+.graphicdes
+{
+       animation: show linear;
+       animation-timeline: view();
+       animation-range: entry 0% cover 40%;
+       transition: 3s;
+       margin: 4400px 650px;
+       position: absolute;
+       font-size: 2em;
+       width: 400px;font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       font-weight: 400;  
+}
+.graphictxt2
+{
+       animation: show linear;
+       animation-timeline: view();
+       animation-range: entry 0% cover 40%;
+       transition: 3s;
+       margin: 10px 0px;
+       position: absolute;
+       font-size: 20px;
+       width: 350px;
+       font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       font-weight: 300;   
+}
+
+
+
+.add
+{
+       animation: show linear;
+       animation-timeline: view();
+       animation-range: entry 0% cover 40%;
+       transition: 3s;
+       margin: 4400px 1050px;
+       position: absolute;
+       font-size: 2em;
+       width: 400px;font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       font-weight: 400;  
+}
+.addtxt
+{
+       animation: show linear;
+       animation-timeline: view();
+       animation-range: entry 0% cover 40%;
+       transition: 3s;
+       margin: 10px 0px;
+       position: absolute;
+       font-size: 20px;
+       width: 350px;
+       font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       font-weight: 300;   
+}
+
+.bolo
+{
+    position: absolute;
+    height: 3px;
+    width: 1000px;
+    margin: 4150px 450px;
+    background-color: black;
+}
+.buttn{
+    position: absolute;
+    height: 40px;
+    width: 120px;
+    margin: 4600px 650px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;  
+    font-size: 20px;
+    background-color: rgba(240, 248, 255, 0.481);
+    align-content: center; 
+cursor: pointer;
+;
+}
+.buttn:hover{
+    border: 3px solid aliceblue;
+    transition: .1s;
+}
+.buttn:active{
+    height:30px ;
+    width: 115px;
+}
+
+
+
+
+.languages
+{
+   margin: 4900px 200px;
+   position: absolute;
+   font-size: 4em;
+   width: 400px;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-weight: 300;
+}
+.pltxt
+{
+       margin: 20px 0px;
+       position: absolute;
+       font-size: 20px;
+       width: 900px;
+       font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       font-weight: 300;   
+}
+.lans{
+    animation: show linear;
+       animation-timeline: view();
+       animation-range: entry 0% cover 40%;
+       transition: 3s;
+       margin: 5200px 200px;
+       position: absolute;
+       font-size: 50px;
+       width: 900px;
+       font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       font-weight: 300; 
+}
+.projects
+{
+    
+   margin: 5600px 200px;
+   position: absolute;
+   font-size: 4em;
+   width: 400px;font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-weight: 300;
+}
+.danda{
+    height: 1px;
+    width: 1000px;
+    margin: 5360px 300px;
+    background-color: black;
+    position: absolute;
+}
+.bolo1{
+    height: 1px;
+    width: 400px;
+    margin: 4620px 240px;
+    background-color: black;
+    position: absolute;
+}
+.bolo2{
+    height: 1px;
+    width: 400px;
+    margin: 4620px 780px;
+    background-color: black;
+    position: absolute;
+}
+
+
+.websites{
+    position: absolute;
+    height: 350px;
+    width: 1460px;
+    margin: 5800px 20px;
+    
+}
+.graph{
+    position: absolute;
+    height: 350px;
+    width: 1460px;
+    background-color: rgb(255, 255, 255);
+    margin: 6200px 20px;
+    
+}
+.websites ul{
+display: flex;
+list-style: none;
+column-gap: 10px;
+}
+
+.websites a { text-decoration: none;}
+.websites ul li {
+   text-align: center;
+   text-decoration: none;
+    }
+
+.websites ul li:hover{
+    margin: -30px 0px;
+    transition: .3s ease-out;
+}
+
+
+
+.websites ul li img{
+    height: 330px;
+    width: 280px;
+    
+}
